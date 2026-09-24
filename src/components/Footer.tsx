@@ -52,6 +52,9 @@ export default function Footer() {
                 <a href="#hero" className="hover:text-gold-400 transition-colors">Início</a>
               </li>
               <li>
+                <a href="#resultados" className="hover:text-gold-400 transition-colors">Antes e Depois</a>
+              </li>
+              <li>
                 <a href="#metodo-bello" className="hover:text-gold-400 transition-colors">O Método Bello</a>
               </li>
               <li>
@@ -61,7 +64,7 @@ export default function Footer() {
                 <a href="#sobre" className="hover:text-gold-400 transition-colors">Sobre a Dra. Beatriz</a>
               </li>
               <li>
-                <a href="#diferenciais" className="hover:text-gold-400 transition-colors">Padrão de Excelência</a>
+                <a href="#feedbacks" className="hover:text-gold-400 transition-colors">Feedbacks de Pacientes</a>
               </li>
               <li>
                 <a href="#faq" className="hover:text-gold-400 transition-colors">Perguntas Frequentes</a>
