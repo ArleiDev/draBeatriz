@@ -18,7 +18,6 @@ export default function Navbar() {
 
   const navLinks = [
     { name: "Início", href: "#hero" },
-    { name: "Antes e Depois", href: "#resultados" },
     { name: "Método Bello", href: "#metodo-bello" },
     { name: "Procedimentos", href: "#procedimentos" },
     { name: "Sobre", href: "#sobre" },
