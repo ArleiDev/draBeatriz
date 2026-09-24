@@ -1,6 +1,5 @@
 import Navbar from "@/components/Navbar";
 import Hero from "@/components/Hero";
-import BeforeAfter from "@/components/BeforeAfter";
 import Philosophy from "@/components/Philosophy";
 import MetodoBello from "@/components/MetodoBello";
 import Procedures from "@/components/Procedures";
