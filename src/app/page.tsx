@@ -17,7 +17,6 @@ export default function Home() {
     <main className="min-h-screen flex flex-col bg-beige-50">
       <Navbar />
       <Hero />
-      <BeforeAfter />
       <Philosophy />
       <MetodoBello />
       <Procedures />
