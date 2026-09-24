@@ -34,7 +34,14 @@ export const metadata: Metadata = {
     description: "Realçando sua beleza natural: menos excessos, mais harmonia. Agende sua avaliação personalizada.",
     locale: "pt_BR",
     type: "website",
-  }
+  },
+  icons: {
+    icon: [
+      { url: "/favicon.ico", sizes: "any" },
+      { url: "/icon.png", type: "image/png" },
+    ],
+    apple: "/icon-192.png",
+  },
 };
 
 export default function RootLayout({

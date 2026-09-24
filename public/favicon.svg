@@ -1,0 +1,37 @@
+
+<svg width="512" height="512" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#362317" />
+      <stop offset="100%" stop-color="#1E120A" />
+    </linearGradient>
+    <linearGradient id="goldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#F3E5C8" />
+      <stop offset="40%" stop-color="#D8BA76" />
+      <stop offset="100%" stop-color="#B88E3E" />
+    </linearGradient>
+    <linearGradient id="borderGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#D8BA76" stop-opacity="0.6" />
+      <stop offset="100%" stop-color="#9E7B35" stop-opacity="0.3" />
+    </linearGradient>
+  </defs>
+
+  <!-- Background Squircle / Rounded Rectangle -->
+  <rect x="16" y="16" width="480" height="480" rx="110" ry="110" fill="url(#bgGrad)" />
+  
+  <!-- Subtle Gold Inner Border -->
+  <rect x="36" y="36" width="440" height="440" rx="90" ry="90" fill="none" stroke="url(#borderGrad)" stroke-width="6" />
+
+  <!-- Monogram Letter "B" in Playfair Display / Georgia / Serif -->
+  <text 
+    x="50%" 
+    y="54%" 
+    dominant-baseline="central" 
+    text-anchor="middle" 
+    font-family="'Playfair Display', Georgia, 'Times New Roman', serif" 
+    font-size="320" 
+    font-weight="500" 
+    fill="url(#goldGrad)"
+    letter-spacing="-0.02em"
+  >B</text>
+</svg>
